@@ -24,3 +24,10 @@ Javascript
 16-20 Popup Login Page;
 22-29 Automatic slide change timer;
 31-58 Retrieving/Outputting Info from API;
+
+
+Collaborators
+Alejandro Rosan
+Zaakir Razark
+Vandanna Ganga
+Jordan Rique
