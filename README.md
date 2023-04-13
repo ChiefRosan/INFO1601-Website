@@ -27,7 +27,7 @@ Javascript
 
 
 Collaborators
-Alejandro Rosan
-Zaakir Razark
-Vandanna Ganga
-Jordan Rique
+Alejandro Rosan,
+Zaakir Razark,
+Vandanna Ganga,
+Jordan Rique.
