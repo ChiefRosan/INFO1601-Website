@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Recipe API</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> <!-- used to get fonts and logos -->
+  
+</head>
+<body>
+  <nav> 
+    <ul>
+      <li class = "logo"> <div>AVZJ Recipes <br> <div class="note">Everything you'll ever need</div></div></li>
+      <div class = "items"> 
+       <li> <a class="skip-link" href = "#home"> Home </a> </li>
+       <li> <a class="skip-link" href = "#about"> About </a> </li>
+       <li> <a class="skip-link" href = "#services"> Services </a> </li>
+       <li> <a class="skip-link" href = "#contact"> Contact </a> </li>
+       <li>  <div class = "container"> 
+    <form>
+      <input type = "text" placeholder = "Search for Recipe">
+       <ion-icon name="search"></ion-icon>
+    </form>
+  </div> </li>
+       <button class = " login" onclick = "document.getElementById('id01').style.display = 'block'">Login</button>
+     <div id = "id01" class = "modal">
+       <span onclick = "document.getElementById('id01').style.display = 'none'"
+         class = "close" title = "Close modal"> &times;</span>
+       <form class = "modal-content animate" action="/action-page.php">
+         <div class = "imgcontainer" style = "text-align:center;">
+           <i class = "fas fa-user-tie" id="icon2"></i>
+     </div>
+        
+         <div class = "container1">
+           <label for = "uname"><b>Username</b></label>
+           <input class ="txt" type = "text" placeholder="Enter Username" required>
+           <label for = "psw"> <b>Password</b></label>
+           <input class = "txt" type = "password" placeholder="Enter Password" name="psw" required>
+           <button class = "btn2" type = "submit"> Login</button><br>
+           <label>
+             <input type="checkbox" checked= "checked" name="remember"> Remember me
+            </label>
+          </div>
+       </form>
+       <div class= "container2">
+         <button class = "btn3" type="button" onclick="getElementById('id01').style.display = 'none'">Cancel</button>
+       </div>
+      </div> 
+    </ul> 
+  </nav>
+</body>
+  
+  <div class ="b">
+   <div class="slider">
+      <div class="slides">
+        
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+
+        <div class="slide first">
+          <img src="https://pykado.de/wp-content/uploads/2018/07/Foodfotos1.jpg" alt="">
+        </div>
+        <div class="slide">
+          <img src="https://hosbeg.com/wp-content/uploads/2018/04/keto-diet-foods.jpeg" alt="">
+        </div>
+        <div class="slide">
+          <img src="https://img.huffingtonpost.com/asset/585be1aa1600002400bdf2a6.jpeg?ops=scalefit_970_noupscale" alt="">
+        </div>
+        <div class="slide">
+          <img src="https://tse2.mm.bing.net/th?id=OIP._ifL0rXgJKgK7W2LTJhdsgHaFj&pid=Api&P=0" alt="">
+        </div>
+
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+
+      </div>
+
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+
+    </div>
+    </div>
+  <div  class = "search-result">
+    </div>
+  <div class = "yeet">
+  <h1 id ="home"> HOME</h1>
+  <p>Welcome to the AVZJ website. Our mission for this website is to help you at home learn more recipes and to broaden your knowledge in the art of cooking. We provide recipes to all types of food lovers. Are you a vegeterian? You can browse for different and unique ways to make salads and more. It also helps with people who are dieting, as we provide the calories for each dish that is searched. We hope that you enjoy our website and discover different type of meals at home!</p>
+   <h1 id ="about"> ABOUT</h1>
+  <p> This Website was built by UWI students as an assignment in which they had to create a Data visualization WebPage.</p>
+   <h1 id ="services"> SERVICES</h1>
+  <p>This website serves to create a page in which people who struggle with cooking and hate digging through their mother's recipe books to find what they are looking for, to have any recipe they want all at the click of a button</p>
+  </div>
+  <div class="footer" id ="contact">
+  <p> CONTACT</p>
+  <p> Contact information for the creators of this webpage are:</p>
+  <p> Email:senorlegs@gmail.com </p>
+ 
+  </div>
+      </div>   
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script> <!-- used to get slow animation for login popup -->
+    <script src="https://kit.fontawesome.com/9148f8c7d4.js" crossorigin="anonymous"></script><!-- used to get search icon for search button -->
+  <script src="script.js"></script>
+</html>
